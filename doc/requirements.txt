@@ -1,0 +1,24 @@
+What is data visualisation? 
+Data visualisation is the use of visual representation to show patterns and explore relation in dataset 
+
+What is Matplotlib? 
+A mathematiccal plotting library 
+
+Usage of Matplotlib: 
+1. Line graph 
+2. Scatter plots 
+
+
+Install Matplotlib Process Per Project: 
+- cd project_path 
+- create vertual eneronment in current directory: python3 -m venv venv
+- activate venv: source venv/bin/activate 
+- install matplot lib: pip install matplotlib
+- deactivate matplot venv: deactivate
+
+Install tkinter for gui visualisation in linux: 
+sudo apt install python3-tk
+
+Customise style of matplotlib: 
+check what style avialable: print(plt.style.available)
+Install pytest command: 
