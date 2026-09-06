@@ -20,7 +20,7 @@ fig, ax = plt.subplots(figsize=(10, 6)) # width and height in inches
 ax.plot(x_values, y_values, color='red', linewidth=2, zorder=1)
 
 # styling indivual points, s is the size of the points 
-ax.scatter(x_values, y_values, color='black', s=50, zorder=2) # RGB color=(0,0.8,0)
+ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Greys, s=50, zorder=2) # RGB color=(0,0.8,0)
 
 # set chart title and label axes 
 ax.set_title("Square Numbers Line Graph", fontsize=28)
@@ -37,6 +37,7 @@ ax.ticklabel_format(style='plain') # other style: sci(scietific), engineering(1e
 ax.axis([0, 30, 0, 1000])
 
 # we can save the figure through code in a directory (dpi = dots per inch allows us to install better quality picture)
-plt.savefig('/home/sujon/Project/mirror-metrics/output/graph/line-graph.png', dpi=100)
+# bbox_inches: Removes extra whitespace around the figure when saving:
+plt.savefig('/home/sujon/Project/mirror-metrics/output/graph/line_square_graph.png', bbox_inches='tight', dpi=100)
 plt.show()
 
