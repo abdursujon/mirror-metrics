@@ -1,0 +1,58 @@
+scatter points available color: 
+Basic colors:
+
+red
+blue
+green
+yellow
+orange
+purple
+pink
+brown
+gray
+black
+white
+
+Extended colors:
+
+cyan
+magenta
+lime
+navy
+teal
+olive
+maroon
+khaki
+salmon
+gold
+coral
+tomato
+turquoise
+violet
+indigo
+crimson
+silver
+steelblue
+darkred
+darkblue
+darkgreen
+lightblue
+lightgreen
+lightgray
+darkgray
+chocolate
+Peru
+rosybrown
+sandybrown
+lightcoral
+
+Single letter shortcuts:
+
+r (red)
+b (blue)
+g (green)
+y (yellow)
+m (magenta)
+c (cyan)
+k (black)
+w (white)
